@@ -1,0 +1,46 @@
+{
+	"ManifestVersion": "manifestGen 1.0.1",
+	"ManifestDocumentation": "https://mep.avanade.com/docs/self-service/ssp_public/guidance",
+	"ProjectName": "Test 1",
+	"ProjectDescription": "First test publishing an asset",
+	"RepositoryName": "MESSP-TEST1",
+	"Cost": "0.0",
+	"RunTimeCost": "0.0",
+	"README": "",
+	"Icon": "",
+	"ExportCompliance": false,
+	"ContributionAllowed": false,
+	"Maintainers": [],
+	"tags": [],
+	"preconditions": [],
+	"inclusions": {
+		"Continuous Integration": {
+			"Automated Build": false,
+			"Unit Testing": false
+		},
+		"Continuous Deployment": {
+			"Automated Deployment": false
+		},
+		"Project Management": {
+			"Work Items": false,
+			"Queries": false,
+			"Dashboard": false
+		}
+	},
+	"ThirdPartyTools": [],
+	"parameters": [],
+	"components": [
+		{
+			"name": "",
+			"type": "",
+			"workdir": "",
+			"extensions": [],
+			"endpoints": [],
+			"pipelines": {
+				"build": [],
+				"release": []
+			},
+			"workItems": []
+		}
+	]
+}
